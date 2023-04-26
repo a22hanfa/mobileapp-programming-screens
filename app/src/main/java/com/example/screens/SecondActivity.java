@@ -21,6 +21,5 @@ public class SecondActivity extends AppCompatActivity {
 
         TextView textViewProgram = findViewById(R.id.textViewProgram);
         textViewProgram.setText(programValue);
-
     }
 }
