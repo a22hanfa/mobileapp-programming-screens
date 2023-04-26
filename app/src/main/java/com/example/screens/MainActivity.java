@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         button.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            intent.putExtra("Name", "Hej, mitt namn är Hannes");
+            intent.putExtra("Program", "Jag pluggar Datavetenskap");
             startActivity(intent);
         });
 
